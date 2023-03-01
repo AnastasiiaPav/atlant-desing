@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <!-- <link rel="stylesheet" href="/css/style.css" /> -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -39,11 +39,11 @@
       </div>
       <div class="header-navigation">
         <ul class="header-links">
-          <li class="link"><a href=""></a>Виды строительства</li>
-          <li class="link"><a href=""></a>Мы построили</li>
-          <li class="link"><a href=""></a>Партнёрам</li>
-          <li class="link"><a href=""></a>Вакансии</li>
-          <li class="link"><a href=""></a>О компании</li>
+          <li class="link"><a href="#construction" class="link-set">Виды строительства</a></li>
+          <li class="link"><a href="#project"  class="link-set">Мы построили</a></li>
+          <li class="link"><a href="#offen"  class="link-set">Партнёрам</a></li>
+          <li class="link"><a href="#gallery"  class="link-set">Галерея</a></li>
+          <li class="link"><a href="#about-us"  class="link-set">О компании</a></li>
         </ul>
         <button type="button" class="main-button">Связаться</button>
       </div>
@@ -67,27 +67,242 @@
         </div>
       </div>
     </section>
-    <section class="to-do">
-        <ul class="to-do-list">
-            <li><p class="denefits-number">70+</p> <h2 class="benefits">Объектов построили под ключ</h2></li>
-            <li><p class="denefits-number">540+</p> <h2 class="benefits">Проектов вели</h2></li>
-            <li><p class="denefits-number">47357 </p> <h2 class="benefits">Часов мы провели на объектах</h2></li>
-            <li><p class="denefits-number">25+</p> <h2 class="benefits">Сотрудников работает</h2></li>
-        </ul>
+    <section class="to-do" id="to-do">
+      <ul class="to-do-list">
+        <li>
+          <p class="denefits-number">70+</p>
+          <h2 class="benefits">Объектов построили под ключ</h2>
+        </li>
+        <li>
+          <p class="denefits-number">540+</p>
+          <h2 class="benefits">Проектов вели</h2>
+        </li>
+        <li>
+          <p class="denefits-number">47357</p>
+          <h2 class="benefits">Часов мы провели на объектах</h2>
+        </li>
+        <li>
+          <p class="denefits-number">25+</p>
+          <h2 class="benefits">Сотрудников работает</h2>
+        </li>
+      </ul>
     </section>
-    <section class="construction">
-        <h3 class="to-do-title">Мы строим</h3>
-        <ul class="construction-item">
-           <li><div class="construction-list"><p class="construction-name">Склады</p></div></li>
-           <li><div class="construction-list2"><p class="construction-name">Холодильные камеры</p></div></li>
-           <li><div class="construction-list3"><p class="construction-name">Логистические центры</p></div></li>
-           <li><div class="construction-list4"><p class="construction-name">Производств. помещения</p></div></li>
-           <li><div class="construction-list5"><p class="construction-name">Коммерческие объекты</p></div></li>
-           <li><div class="construction-list6"><p class="construction-name">Металлические конструкции</p></div></li>
-           <li><div class="construction-list7"><p class="construction-name">Сэндвич <br> панели</p></div></li>
-           <li><div class="construction-list8"><p class="construction-name">Реконструируем <br> здания</p></div></li>
-        </ul>
-        <div class="decoration-circle"></div>
+    <section class="construction" id="construction">
+      <h3 class="to-do-title">Мы строим</h3>
+      <ul class="construction-item">
+        <li>
+          <div class="construction-list">
+            <p class="construction-name">Склады</p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list2">
+            <p class="construction-name">Холодильные камеры</p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list3">
+            <p class="construction-name">Логистические центры</p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list4">
+            <p class="construction-name">Производств. помещения</p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list5">
+            <p class="construction-name">Коммерческие объекты</p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list6">
+            <p class="construction-name">Металлические конструкции</p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list7">
+            <p class="construction-name">
+              Сэндвич <br />
+              панели
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="construction-list8">
+            <p class="construction-name">
+              Реконструируем <br />
+              здания
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="decoration-circle"></div>
     </section>
-    </body>
+    <section class="choose-servise">
+      <img src="./image/image5.png" alt="" height="625" class="servise" />
+    </section>
+    <section class="project" id="project">
+      <h2 class="to-do-title" >Наши проекты</h2>
+      <ul class="project-list">
+        <li class="project-card">
+          <div>
+            <h3 class="project-desk">
+              <label class="project-name">Склад</label> - для компании Nestle
+            </h3>
+            <img
+              src="./image//ProjectCover.png"
+              alt=""
+              width="500"
+              height="375"
+            />
+            <div class="decor-flex">
+              <p class="project-time">4 МЕС.</p>
+              <button type="button" class="main-button second-button">
+                Подробнее
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <div>
+            <h3 class="project-desk">
+              <label class="project-name">Логистический центр </label> - Linello
+            </h3>
+            <img
+              src="./image/ProjectCove2r.png"
+              alt=""
+              width="500"
+              height="375"
+            />
+            <div class="decor-flex">
+              <p class="project-time">24 мес.</p>
+              <button type="button" class="main-button second-button">
+                Подробнее
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <div>
+            <h3 class="project-desk">
+              <label class="project-name">Реконструкция здания</label>
+            </h3>
+            <img
+              src="./image//ProjectCover3.png"
+              alt=""
+              width="500"
+              height="375"
+            />
+            <div class="decor-flex">
+              <p class="project-time">6 МЕС.</p>
+              <button type="button" class="main-button second-button">
+                Подробнее
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <div>
+            <h3 class="project-desk">
+              <label class="project-name">Металлическая конструкция </label>
+            </h3>
+            <img
+              src="./image//ProjectCover4.png"
+              alt=""
+              width="500"
+              height="375"
+            />
+            <div class="decor-flex">
+              <p class="project-time">11 МЕС.</p>
+              <button type="button" class="main-button second-button">
+                Подробнее
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="about-us" id="about-us">
+      <div>
+        <img src="./image/image-removebg1.png" alt="" width="579px" />
+      </div>
+      <div class="about-us-section">
+        <p class="about-us-item">ATLANT CONSTRCUT</p>
+        <h2 class="about-us-title">О компании</h2>
+        <p class="about-us-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum
+          diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem
+          egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non.
+          Non commodo volutpat, pharetra, vel.
+        </p>
+        <ul class="more">
+          <li><a href="" class="read-more">Подробнее</a></li>
+          <li>
+            <a href=""><img src="./image/right-arrow.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="decoration-circle second-circle"></div>
+    </section>
+    <section class="offer"  id="offen">
+      <div class="offen-decor">
+        <h2 class="offer-title">Коммерческое предложение</h2>
+        <p class="offer-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum
+          diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem
+          egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non.
+          Non commodo volutpat, pharetra, vel.
+        </p>
+        <img src="./image/iPhoneX.png" alt="" class="absolute-img" />
+        <ul class="more">
+          <li><a href="" class="download">Cкачать</a></li>
+          <li>
+            <a href=""><img src="./image/right-arrow-write.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <h2 class="to-do-title">Галерея</h2>
+      <ul class="img-list">
+        <li class="gallery-img"><img src="./image/1.png" alt="" /></li>
+        <li class="gallery-img"><img src="./image/2.png" alt="" /></li>
+        <li class="gallery-img"><img src="./image/3.png" alt="" /></li>
+        <li class="gallery-img"><img src="./image/4.png" alt="" /></li>
+        <li class="gallery-img"><img src="./image/5.png" alt="" /></li>
+        <li class="gallery-img"><img src="./image/6.png" alt="" /></li>
+      </ul>
+    </section>
+    <section class="trust">
+        <h2 class="to-do-title trust-title">Нам доверяют</h2>
+        <p class="trust-text offer-text">We have been working with some Fortune 50 clients</p>
+        <div class="trust-us">
+            <div><img src="./image/Col1.png" alt=""  class="logo-part normalize"/></div>
+            <div>
+              <ul>
+                <li><img src="./image/GoogleLogo.png" alt="" class="logo-part"/></li>
+                <li><img src="./image/BookMyShowLogo.png" alt="" class="logo-part"/></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                  <li><img src="./image/MicrosoftLogo.png" alt="" class="logo-part"></li>
+                  <li><img src="./image/FedExLogo.png" alt="" class="logo-part"></li>
+                  <li><img src="./image/WalmartLogo.png" alt="" class="logo-part"></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                  <li><img src="./image/OLALogo.png" alt="" class="logo-part"></li>
+                  <li><img src="./image/OYOLogo.png" alt="" class="logo-part"></li>
+              </ul>
+            </div>
+            <div><img src="./image/Col5.png " alt="" class="logo-part normalize"></div>
+        </div>
+    </section>
+  </body>
 </html>
