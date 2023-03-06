@@ -797,6 +797,7 @@ color: var(--backgroung-color);
     background-color:var(--hover-color);
     transition: all;
 
+    z-index: 10;
 }
 
 .back-to-top:hover,
